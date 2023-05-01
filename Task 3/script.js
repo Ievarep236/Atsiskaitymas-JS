@@ -27,7 +27,6 @@ const createCards = (data) => {
     loginP.classList = 'avatarText';
     imageContainer.classList = 'imgcontainer';
     cardContainer.classList = 'cardContainer';
-    avatarImg.classList = 'avatarImg';
 
     loginP.textContent = item.login;
     avatarImg.src = item.avatar_url;

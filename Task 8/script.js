@@ -23,7 +23,7 @@ function Calculator(a, b) {
   };
 }
 
-const Numbers = new Calculator(5, 30);
+const Numbers = new Calculator(30, 2);
 
 console.log(Numbers.sum());
 console.log(Numbers.subtraction());
