@@ -8,6 +8,7 @@
 }
 
 /* Mobile first */
+
 .wrapper {
   min-height: 100vh;
   min-width: calc(100vw - (100vw - 100%));
@@ -26,4 +27,30 @@
 .container h1 {
   margin-top: 50px;
   color: #333;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brandContainer {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  margin: 40px;
+  padding: 40px;
+  width: 200px;
+}
+
+.brand {
+  padding: 10px;
+  color: rgb(64, 53, 217);
+}
+
+.list {
+}
+
+.listitem {
+  padding: 2px;
 }
