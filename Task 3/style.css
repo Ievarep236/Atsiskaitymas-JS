@@ -59,3 +59,39 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #474747;
+  margin: 20px;
+  width: auto;
+}
+
+.avatarText {
+  margin: 25px 0;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.imgcontainer {
+  background-color: rgb(98, 224, 180);
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.avatarImg {
+  justify-content: center;
+}
