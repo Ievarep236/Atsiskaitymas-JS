@@ -23,11 +23,10 @@ if (form) {
       });
     }
 
-    const svarai = input * 2.2046;
-    const gramai = input / 0.001;
-    const unijos = input * 35.274;
+    const svarai = Math.round(input * 2.2046);
+    const gramai = Math.round(input / 0.001);
+    const unijos = Math.round(input * 35.274);
 
-    console.log(input);
     const svaraiP = document.createElement('p');
     const gramaiP = document.createElement('p');
     const unijosP = document.createElement('p');

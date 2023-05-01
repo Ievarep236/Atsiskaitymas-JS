@@ -17,11 +17,13 @@ const createCards = (data) => {
     const brandContainer = document.createElement('div');
     const brand = document.createElement('h2');
     const list = document.createElement('ul');
+
     brandContainer.classList = 'brandContainer';
     brand.classList = 'brand';
     list.classList = 'list';
 
-    brand.textContent = item.brand;
+    brand.textContent = item.brand.toUpperCase();
+
     item.models.forEach((modelItem) => {
       const listitem = document.createElement('li');
       listitem.classList = 'listitem';
